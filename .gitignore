@@ -1,0 +1,72 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDE files (PyCharm, VSCode, etc.)
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables
+.env
+*.env
+
+# Migrations
+migrations/
+*/migrations/*.py
+*/migrations/*.pyc
+
+# Logs
+*.log
+logs/
+*.out
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Test reports
+*.coverage
+coverage.xml
+*.pytest_cache/
+
+# Byte-compiled files
+*.so
+
+# Database files
+*.sqlite3
+*.db
+
+# Static files
+staticfiles/
+mediafiles/
+
+# FastAPI generated files
+*.pid
+*.lock
+
+# Docker-related files
+docker-compose.override.yml
+.env.docker
+
+# Python dependency files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+MANIFEST
+
+# Pytest
+.pytest_cache/
